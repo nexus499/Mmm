@@ -1018,7 +1018,7 @@ _call991.Size = UDim2.new(0, 19, 0, 19)
 _call991.Position = UDim2.new(0, 3, 0, 3)
 _call991.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
 _call991.Parent = _call979
--- Auto copy Discord invite
+
 local discordLink = "https://discord.gg/RdVWygQYz"
 
 if setclipboard then
@@ -1027,7 +1027,6 @@ elseif toclipboard then
     toclipboard(discordLink)
 end
 
--- Notification message
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "TJ FFA FARM",
     Text = "Join the discord for more",
