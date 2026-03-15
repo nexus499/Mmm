@@ -19,7 +19,7 @@ Vector3.new(0, -500, 0)
 
 local _call30 = Instance.new('ScreenGui')
 
-_call30.Name = 'AstralConfigsPremium'
+_call30.Name = 'TJ ffa farm'
 _call30.ResetOnSpawn = false
 _call30.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -190,7 +190,7 @@ _call201.Name = 'Title'
 _call201.Size = UDim2.new(1, 0, 0, 30)
 _call201.Position = UDim2.new(0, 0, 0, 12)
 _call201.BackgroundTransparency = 1
-_call201.Text = 'ASTRAL CONFIGS'
+_call201.Text = 'TJ ffa farm'
 _call201.TextColor3 = Color3.fromRGB(255, 255, 255)
 _call201.Font = Enum.Font.GothamBold
 _call201.TextSize = 20
@@ -203,7 +203,7 @@ _call213.Name = 'Subtitle'
 _call213.Size = UDim2.new(1, 0, 0, 18)
 _call213.Position = UDim2.new(0, 0, 0, 38)
 _call213.BackgroundTransparency = 1
-_call213.Text = 'PREMIUM EDITION'
+_call213.Text = 'SOCKS EDITION'
 _call213.TextColor3 = Color3.fromRGB(255, 255, 255)
 _call213.Font = Enum.Font.GothamBold
 _call213.TextSize = 12
@@ -1018,3 +1018,18 @@ _call991.Size = UDim2.new(0, 19, 0, 19)
 _call991.Position = UDim2.new(0, 3, 0, 3)
 _call991.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
 _call991.Parent = _call979
+-- Auto copy Discord invite
+local discordLink = "https://discord.gg/RdVWygQYz"
+
+if setclipboard then
+    setclipboard(discordLink)
+elseif toclipboard then
+    toclipboard(discordLink)
+end
+
+-- Notification message
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "TJ FFA FARM",
+    Text = "Join the discord for more",
+    Duration = 6
+})
